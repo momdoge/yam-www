@@ -20,8 +20,8 @@ const Home: React.FC = () => {
     <Page>
       <PageHeader
         icon={darkMode ? "🌚" : "🌞"}
-        subtitle={darkMode ? "🤫 shhh... the YAMs are sleeping." : "It's a great day to farm YAMs!"}
-        title="Welcome to YAM Finance."
+        subtitle={darkMode ? "🤫 shhh... the MomDoge are sleeping." : "It's a great day to farm MomDoge!"}
+        title="Welcome to MomDoge Finance."
       />
       <Container>
         <RegisterVoteNotice />
