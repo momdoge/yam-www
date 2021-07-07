@@ -55,15 +55,15 @@ const Start: React.FC = () => {
     <StartPage>
       <StyledHero>
         <StartPageHeader
-          icon={`${astronaut}❤️🍠`}
-          subtitle="Fair launch, open participation, and inclusive community."
-          title="Fair finance by the people, for the people."
+          icon={`${astronaut}❤️🐶`}
+          subtitle="MomDoge is a decentralised protocol on the Binance Smaet Chain."
+          title="MomDoge finance by the people, for the people."
         />
         <Container size="lg">
           <Box row justifyContent="center">
             <Button text="Open App" to="/dashboard" />
             <Spacer />
-            <Button text="Join the Community" href="https://discord.com/invite/TgFpmDj" variant="secondary" />
+            <Button text="Join the Community" href="https://t.me/Mom_Doge" variant="secondary" />
           </Box>
         </Container>
       </StyledHero>
@@ -74,7 +74,7 @@ const Start: React.FC = () => {
         <StyledSectionIcon>⚖️</StyledSectionIcon>
         <Spacer size="lg" />
         <StyledSectionTitle>Fair finance for everyone.</StyledSectionTitle>
-        <StyledSectionDescription>Yam is owned and controlled by our community of Yam token holders.</StyledSectionDescription>
+        <StyledSectionDescription>MomDoge is owned and controlled by our community of MomDoge token holders.</StyledSectionDescription>
         <Spacer size="lg" />
         <StartSplit>
           <Card>
@@ -83,7 +83,7 @@ const Start: React.FC = () => {
             <CardContent>
               <StyledCardName>Growing treasury</StyledCardName>
               <Spacer size="sm" />
-              <StyledCardDescription>The YAM treasury is vibrant and growing fast.</StyledCardDescription>
+              <StyledCardDescription>The MomDoge treasury is vibrant and growing fast.</StyledCardDescription>
             </CardContent>
             <CardActions>
               <Box row justifyContent="center">
@@ -97,7 +97,7 @@ const Start: React.FC = () => {
             <CardContent>
               <StyledCardName>Yield farming</StyledCardName>
               <Spacer size="sm" />
-              <StyledCardDescription>Earn YAMs while helping YAM grow too.</StyledCardDescription>
+              <StyledCardDescription>Earn MomDoge while helping MomDoge grow too.</StyledCardDescription>
             </CardContent>
             <CardActions>
               <Box row justifyContent="center">
@@ -111,7 +111,7 @@ const Start: React.FC = () => {
             <CardContent>
               <StyledCardName>Decentralized governance</StyledCardName>
               <Spacer size="sm" />
-              <StyledCardDescription>YAM holders decide YAM's future via on-chain voting.</StyledCardDescription>
+              <StyledCardDescription>MomDoge holders decide MomDoge's future via on-chain voting.</StyledCardDescription>
             </CardContent>
             <CardActions>
               <Box row justifyContent="center">
