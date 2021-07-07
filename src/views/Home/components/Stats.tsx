@@ -28,7 +28,7 @@ const Stats: React.FC = () => {
     <Box column>
       <Card>
         <CardContent>
-          <FancyValue icon="💲" label="Current price (TWAP)" value={currentPrice ? `${currentPrice} USDC` : "--"} />
+          <FancyValue icon="💲" label="Current price (MOMDOGE)" value={currentPrice ? `${currentPrice} USDC` : "--"} />
         </CardContent>
       </Card>
       <Spacer />
