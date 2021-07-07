@@ -7,10 +7,10 @@ import StyledNoticeIcon from "components/StyledNoticeIcon";
 const MigrationNotice: React.FC = () => {
   return (
     <Notice>
-      <StyledNoticeIcon role="img">🦋</StyledNoticeIcon>
+      <StyledNoticeIcon role="img">🐶</StyledNoticeIcon>
       <NoticeContent>
         <StyledNoticeContentInner>
-          <span>You have unmigrated YAMV2 tokens!</span>
+          <span>You have unmigrated MOMDOGE tokens!</span>
           <Box flex={1} />
           <Spacer size="sm" />
           <Button size="sm" text="Migrate" to="migrate" />
