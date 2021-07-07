@@ -58,7 +58,7 @@ const Treasury: React.FC = () => {
         <Split>
           <FancyValue icon="💰" label="Treasury value" value={treasuryValue} />
           <FancyValue icon="💸" label="yUSD in reserves" value={yUsdValue} />
-          {/* <FancyValue icon="🍠" label="YAM in reserves" value={yamValue} /> */}
+          {/* <FancyValue icon="🐶" label="MomDoge in reserves" value={yamValue} /> */}
         </Split>
         <Spacer />
       </CardContent>
@@ -66,13 +66,13 @@ const Treasury: React.FC = () => {
         <Box row justifyContent="center">
           <Button
             href="https://exchange.sushiswapclassic.org/#/?inputCurrency=0x0aacfbec6a24756c20d41914f2caba817c0d8521"
-            text="Buy Yam"
+            text="Buy MomDoge"
             variant="secondary"
           />
           <Spacer />
           <Button
             href="https://etherscan.io/tokenholdings?a=0x97990B693835da58A281636296D2Bf02787DEa17"
-            text="View on Etherscan"
+            text="View on Bscscan"
             variant="tertiary"
           />
         </Box>
